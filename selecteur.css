@@ -1,0 +1,92 @@
+h1{
+  text-align: center;
+}
+
+div *{
+border: solid black 1px;
+}
+
+#div1 *::first-letter{
+color: pink;
+font-family: fantasy;
+font-size: 2em;
+}
+
+p{
+font-size: 0.7em;
+  }
+
+.a{
+  color: blue;
+}
+
+.b{
+  color:red;
+}
+
+.c{
+  color: yellow;
+}
+
+a[href="http://simplon.co"]{
+  color:yellow;
+}
+
+
+a[href="http://www.unsiteauhasard.com"]{
+  color: #008080;
+}
+
+a[href="violence.jpg"]{
+  color: pink;
+}
+
+#exo4 div{
+  height: 200px;
+  width: 150px;
+  border: 1px solid black;
+  background-color: grey;
+}
+
+#exo4 div:not([id="mydiv"]){
+  background-color: red;
+}
+
+#exo4 div:nth-child(4){
+  background-color: orange;
+}
+
+#exo5 ul li a {
+  color: pink;
+}
+
+#tableau1 {
+  border: 1px solid black;
+  height: 500px;
+  width: 600px;
+}
+
+#tableau1 tr:nth-child(3) td:nth-child(4){
+  background-color: yellow;
+}
+
+#tableau1 tr, td{
+  border: 1px solid black;
+}
+
+#tableau2 tr:nth-child(odd) td:nth-child(odd), #tableau2 tr:nth-child(even) td:nth-child(even){
+  color:white;
+  background-color: black;
+}
+
+#tableau2 tr, #tableau2 td {
+  height: 50px;
+  width: 50px;
+  border: solid black 1px;
+}
+
+#tableau2 {
+  border: 1px solid black;
+  height: 500px;
+  width: 600px;
+}
